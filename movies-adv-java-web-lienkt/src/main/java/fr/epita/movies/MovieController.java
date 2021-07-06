@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import fr.epita.movies.datamodel.Movie;
 import fr.epita.movies.services.data.api.DataAccessException;
-import fr.epita.movies.services.data.api.IMovieDAO;
+import fr.epita.movies.services.data.api.IMoviesDAO;
 
 @RestController
 public class MovieController {
@@ -25,7 +25,7 @@ public class MovieController {
 	private static final String BASE_PATH="/movies";
 	
 	@Inject
-	IMovieDAO dao;
+	IMoviesDAO dao;
 	
 	@GetMapping(path=BASE_PATH +"/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<List<Movie>> find(@PathVariable("id") Integer id) throws DataAccessException {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="fr.epita.test.movies.TestContact" time="0.131" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="fr.epita.test.movies.TestContact" time="0.115" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.8+10-LTS"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\ThienNhan\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf737076913341677561.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\ThienNhan\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2800164621073202358.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.8/bin/server;C:/Program Files/Java/jdk-11.0.8/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\IntelSGXPSW\bin\x64\Release\;C:\Program Files\Intel\IntelSGXPSW\bin\win32\Release\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.8\bin\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files\nodejs\;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Users\ThienNhan\AppData\Local\Microsoft\WindowsApps;;C:\Users\ThienNhan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ThienNhan\.dotnet\tools;C:\Users\ThienNhan\AppData\Roaming\npm;C:\Users\ThienNhan\Downloads\eclipse;;."/>
     <property name="jdk.debug" value="release"/>
@@ -61,6 +61,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="fr.epita.test.movies.TestContact" name="test" time="0.067"/>
-  <testcase classname="fr.epita.test.movies.TestContact" name="testPrintContact" time="0.064"/>
+  <testcase classname="fr.epita.test.movies.TestContact" name="test" time="0.052"/>
+  <testcase classname="fr.epita.test.movies.TestContact" name="testPrintContact" time="0.063"/>
 </testsuite>

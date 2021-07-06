@@ -1,0 +1,7 @@
+fr\epita\test\movies\TestContact.class
+fr\epita\test\movies\TestPGSQLConnection.class
+fr\epita\test\movies\TestUser.class
+fr\epita\test\movies\TestSeenMovies.class
+fr\epita\test\movies\TestSpring.class
+fr\epita\test\movies\TestRole.class
+fr\epita\test\movies\TestAddress.class

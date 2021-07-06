@@ -34,8 +34,6 @@
 			<value>jdbc:postgresql://localhost:5432/movies</value>
 		</constructor-arg>
 	</bean>
-	
-	<bean id="movieDAO" class="fr.epita.movies.services.data.api.MovieDAO" />
 
 	<context:component-scan
 		base-package="fr.epita.movies.services.data.impl.em">
