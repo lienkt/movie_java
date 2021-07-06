@@ -1,10 +1,14 @@
 package fr.epita.movies.services.data.impl.em;
 
+import java.util.List;
+import java.util.Optional;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import javax.transaction.Transactional.TxType;
 
+import fr.epita.movies.datamodel.Movie;
 import fr.epita.movies.services.data.api.DataAccessException;
 import fr.epita.movies.services.data.api.IDAO;
 /**
@@ -37,5 +41,6 @@ abstract class AbstractGenericDAO<T> implements IDAO<T> {
 	public T findById(Class<T> objectClass, Integer id) {
 		return em.find(objectClass, id);
 	}
+
 
 }

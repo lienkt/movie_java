@@ -8,7 +8,7 @@ import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
 
 import fr.epita.movies.datamodel.Movie;
-import fr.epita.movies.services.data.api.IMoviesDAO;
+import fr.epita.movies.services.data.api.IMovieDAO;
 import fr.epita.movies.services.data.api.DataAccessException;
 
 /**
@@ -16,10 +16,10 @@ import fr.epita.movies.services.data.api.DataAccessException;
  * @author LienKT
  */
 @Transactional(value = Transactional.TxType.REQUIRED)
-public class MoviesJPAEMDAO extends AbstractGenericDAO<Movie> implements IMoviesDAO {
+public class MovieJPAEMDAO extends AbstractGenericDAO<Movie> implements IMovieDAO {
 	
 	@Inject
-	IMoviesDAO dao;
+	IMovieDAO dao;
 	
 	@Override
 	public List<Movie> search(Movie movie) throws DataAccessException {

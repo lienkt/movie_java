@@ -16,7 +16,7 @@ import fr.epita.movies.services.data.api.DataAccessException;
  * @author LienKT
  */
 @Transactional(value = Transactional.TxType.REQUIRED)
-public class SeenMoviesJPAEMDAO extends AbstractGenericDAO<SeenMovie> implements ISeenMovieDAO {
+public class SeenMovieJPAEMDAO extends AbstractGenericDAO<SeenMovie> implements ISeenMovieDAO {
 
 	@PersistenceContext
 	EntityManager em;
