@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="fr.epita.test.movies.TestUser" time="0.114" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="fr.epita.test.movies.TestUser" time="0.118" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.8+10-LTS"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\ThienNhan\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2800164621073202358.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\ThienNhan\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf833903361303962652.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.8/bin/server;C:/Program Files/Java/jdk-11.0.8/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\IntelSGXPSW\bin\x64\Release\;C:\Program Files\Intel\IntelSGXPSW\bin\win32\Release\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.8\bin\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files\nodejs\;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Users\ThienNhan\AppData\Local\Microsoft\WindowsApps;;C:\Users\ThienNhan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ThienNhan\.dotnet\tools;C:\Users\ThienNhan\AppData\Roaming\npm;C:\Users\ThienNhan\Downloads\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.8/bin/server;C:/Program Files/Java/jdk-11.0.8/bin;C:/Users/THIENN~1/AppData/Local/Temp/eoiE219.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_16.0.1.v20210528-1205/jre/bin/server;C:/Users/THIENN~1/AppData/Local/Temp/eoiE219.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_16.0.1.v20210528-1205/jre/bin;C:\Program Files\Google\Chrome\Application;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\IntelSGXPSW\bin\x64\Release\;C:\Program Files\Intel\IntelSGXPSW\bin\win32\Release\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.8\bin\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files\nodejs\;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Users\ThienNhan\AppData\Local\Microsoft\WindowsApps;;C:\Users\ThienNhan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ThienNhan\.dotnet\tools;C:\Users\ThienNhan\AppData\Roaming\npm;C:\Users\ThienNhan\Downloads;;C:\Users\ThienNhan\Downloads;;."/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -40,7 +40,7 @@
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="11"/>
     <property name="user.name" value="ThienNhan"/>
-    <property name="java.class.path" value="C:\Users\ThienNhan\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\Users\ThienNhan\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
@@ -61,6 +61,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="fr.epita.test.movies.TestUser" name="testPrintUser" time="0.06"/>
-  <testcase classname="fr.epita.test.movies.TestUser" name="test" time="0.054"/>
+  <testcase classname="fr.epita.test.movies.TestUser" name="testPrintUser" time="0.059"/>
+  <testcase classname="fr.epita.test.movies.TestUser" name="test" time="0.059"/>
 </testsuite>
